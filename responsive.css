@@ -1,0 +1,67 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  /**************
+  ===============
+  Hero Section */
+
+  .hero__title {
+    text-align: center;
+  }
+  .hero__title--underline {
+    display: none;
+  }
+  .hero__content {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-btn-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .hero-btn:not(last-child) {
+    margin-right: 0;
+    margin-top: 2rem;
+  }
+  /****************
+   Hero section End
+  =================
+   */
+
+  /* Testimonial carousel Section start*/
+  .carousel-right {
+    margin-left: 0;
+    margin-bottom: 3rem;
+  }
+  .carousel-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  /* Testimonial carousel Section end*/
+
+  /* Areas of social section start */
+  .social-media__title{
+    text-align: center;
+  }
+  .social-media__icon{
+    display: block;
+    margin: 0 auto;
+  }
+  /* Areas of social section end */
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Hero Section */
+  .hero__content {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Hero Section */
+  .hero__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+}
